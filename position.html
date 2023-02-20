@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="height: 3000px; padding-top: 60px; padding-left: 60px">
+
+<div style="
+    background-color: aqua;
+    height: 50px;
+    /*width: 100%;*/
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0 ;
+    z-index: 100;
+">
+    header
+
+    <div style="
+        position: absolute;
+        background-color: cadetblue;
+        right: 10px;
+        top: 10px
+    ">
+        absolute_inside
+    </div>
+</div>
+
+<div style="
+    background-color: aqua;
+    width: 50px;
+    position: fixed;
+    top: 50px ;
+    bottom: 0;
+    left: 0;
+">
+    sidebar
+</div>
+
+<div style="
+    position: absolute;
+    background-color: cadetblue;
+    right: 10px;
+    top: 60px
+">
+    absolute
+</div>
+
+<div style="
+    background-color: rgba(166,165,165,0.99);
+    height: 200px;
+    width: 200px;
+    position: static;
+">
+    div 2
+    <div style="
+        position: absolute;
+        background-color: cadetblue;
+        right: 100px;
+        top: 60px
+    ">
+        absolute_inside
+    </div>
+
+</div>
+
+<div style="
+    background-color: rgba(213,104,104,0.99);
+    height: 200px;
+    width: 200px;
+    position: relative;
+">
+    div 3
+
+    <div style="
+        position: absolute;
+        background-color: cadetblue;
+        right: 0;
+        top: 0;
+    ">
+        absolute_relative
+    </div>
+</div>
+</body>
+</html>

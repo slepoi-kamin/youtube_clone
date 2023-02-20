@@ -1,0 +1,53 @@
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px;
+
+}
+
+.video-stats {
+    font-size: 14px;
+    color: #636363;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.channel-name {
+    font-size: 14px;
+    color: #636363;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.video-text {
+    font-size: 14px;
+    color: #636363;
+    width: 300px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.shop-text {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: #e15f4e;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.shop-now {
+    margin-left: 10px;
+}
+
+.shop-now:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

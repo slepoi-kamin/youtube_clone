@@ -1,0 +1,18 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Arial, "sans-serif";
+    padding-top: 75px;
+    padding-left: 85px;
+    padding-right: 15px;
+    height: 3000px;
+    background-color: #f6f6f6;
+}
+
+button {
+    cursor: pointer;
+}
